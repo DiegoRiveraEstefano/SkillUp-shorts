@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ch-101",
+    "title": "Reto de la Semana: Maestro de la Comunicación",
+    "description": "¡Demuestra tus habilidades! Completa al menos 5 videos del curso 'Comunicación Efectiva' esta semana.",
+    "related_course_id": "comm-01",
+    "reward_points": 150,
+    "is_active": true,
+    "end_date": "2025-10-30T23:59:59Z"
+  },
+  {
+    "id": "ch-102",
+    "title": "Reto de la Semana: Espíritu de Equipo",
+    "description": "El trabajo en equipo lo es todo. Completa la serie 'Resolución de conflictos' (2 videos) antes del viernes.",
+    "related_course_id": "team-01",
+    "reward_points": 100,
+    "is_active": true,
+    "end_date": "2025-10-27T23:59:59Z"
+  },
+  {
+    "id": "ch-103",
+    "title": "Reto Pasado: El Impulso del Líder",
+    "description": "Completaste el reto de introducción al liderazgo ágil.",
+    "related_course_id": "leader-01",
+    "reward_points": 100,
+    "is_active": false,
+    "end_date": "2025-10-20T23:59:59Z"
+  }
+]

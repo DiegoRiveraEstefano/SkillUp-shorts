@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ach-001",
+    "title": "¡Primeros pasos!",
+    "description": "Has completado tu primer short de SkillUp.",
+    "icon_url": "/icons/badge-first-step.svg",
+    "criteria": "Completar 1 video"
+  },
+  {
+    "id": "ach-002",
+    "title": "Comunicador Iniciado",
+    "description": "Completaste 3 videos del curso de Comunicación.",
+    "icon_url": "/icons/badge-comm-1.svg",
+    "criteria": "Completar 3 videos de 'Comunicación'"
+  },
+  {
+    "id": "ach-003",
+    "title": "Líder en Potencia",
+    "description": "Completaste 3 videos del curso de Liderazgo.",
+    "icon_url": "/icons/badge-leader-1.svg",
+    "criteria": "Completar 3 videos de 'Liderazgo'"
+  },
+  {
+    "id": "ach-004",
+    "title": "Jugador de Equipo",
+    "description": "Completaste 3 videos del curso de Trabajo en Equipo.",
+    "icon_url": "/icons/badge-team-1.svg",
+    "criteria": "Completar 3 videos de 'Trabajo en Equipo'"
+  },
+  {
+    "id": "ach-005",
+    "title": "Racha Semanal",
+    "description": "Participaste en un reto semanal.",
+    "icon_url": "/icons/badge-streak.svg",
+    "criteria": "Completar 1 reto semanal"
+  }
+]

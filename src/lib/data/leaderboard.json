@@ -1,0 +1,44 @@
+[
+  {
+    "rank": 1,
+    "user_id": "u-003",
+    "full_name": "Jordan Franco",
+    "points": 1500,
+    "avatar_url": "/avatars/jordan.png"
+  },
+  {
+    "rank": 2,
+    "user_id": "u-001",
+    "full_name": "Julio Chureo",
+    "points": 1250,
+    "avatar_url": "/avatars/julio.png"
+  },
+  {
+    "rank": 3,
+    "user_id": "u-002",
+    "full_name": "Brian Contreras",
+    "points": 800,
+    "avatar_url": "/avatars/brian.png"
+  },
+  {
+    "rank": 4,
+    "user_id": "u-004",
+    "full_name": "Luis Hernández",
+    "points": 450,
+    "avatar_url": "/avatars/luis.png"
+  },
+  {
+    "rank": 5,
+    "user_id": "u-005",
+    "full_name": "Felipe Mena",
+    "points": 300,
+    "avatar_url": "/avatars/felipe.png"
+  },
+  {
+    "rank": 6,
+    "user_id": "u-006",
+    "full_name": "Diego Rivera",
+    "points": 150,
+    "avatar_url": "/avatars/diego.png"
+  }
+]

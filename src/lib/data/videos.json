@@ -1,0 +1,50 @@
+[
+  {
+    "id": "v-001",
+    "course_id": "comm-01",
+    "title": "El arte de la escucha activa",
+    "duration": 65,
+    "video_url": "/videos/comm-01.mp4",
+    "description": "3 tips para mejorar tu escucha activa hoy mismo."
+  },
+  {
+    "id": "v-002",
+    "course_id": "comm-01",
+    "title": "Comunicación no verbal: ¿Qué dice tu cuerpo?",
+    "duration": 80,
+    "video_url": "/videos/comm-02.mp4",
+    "description": "Gestos que potencian (o arruinan) tu mensaje."
+  },
+  {
+    "id": "v-003",
+    "course_id": "leader-01",
+    "title": "Feedback constructivo en 90 segundos",
+    "duration": 90,
+    "video_url": "/videos/leader-01.mp4",
+    "description": "Cómo dar feedback que motive y no desanime."
+  },
+  {
+    "id": "v-004",
+    "course_id": "leader-01",
+    "title": "¿Qué es un líder servidor?",
+    "duration": 55,
+    "video_url": "/videos/leader-02.mp4",
+    "description": "El liderazgo no se trata de ti, se trata del equipo."
+  },
+  {
+    "id": "v-005",
+    "course_id": "team-01",
+    "title": "Roles en un equipo: ¿Cuál es el tuyo?",
+    "duration": 75,
+    "video_url": "/videos/team-01.mp4",
+    "description": "Identifica tu rol para potenciar al equipo."
+  },
+  {
+    "id": "v-006",
+    "course_id": "team-01",
+    "title": "Resolución de conflictos: El primer paso",
+    "duration": 60,
+    "video_url": "/videos/team-02.mp4",
+    "description": "No evites el conflicto, gestiónalo."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "u-001",
+    "username": "jchureo",
+    "password_demo": "pass123",
+    "full_name": "Julio Chureo",
+    "avatar_url": "/avatars/julio.png",
+    "points": 1250,
+    "completed_videos": ["v-001", "v-002", "v-003", "v-005"],
+    "unlocked_achievements": ["ach-001", "ach-002"]
+  },
+  {
+    "id": "u-002",
+    "username": "bcontreras",
+    "password_demo": "pass123",
+    "full_name": "Brian Contreras",
+    "avatar_url": "/avatars/brian.png",
+    "points": 800,
+    "completed_videos": ["v-001", "v-004"],
+    "unlocked_achievements": ["ach-001"]
+  },
+  {
+    "id": "u-003",
+    "username": "jfranco",
+    "password_demo": "pass123",
+    "full_name": "Jordan Franco",
+    "avatar_url": "/avatars/jordan.png",
+    "points": 1500,
+    "completed_videos": ["v-001", "v-002", "v-003", "v-004", "v-005", "v-006"],
+    "unlocked_achievements": ["ach-001", "ach-002", "ach-003", "ach-004"]
+  },
+  {
+    "id": "u-004",
+    "username": "lhernandez",
+    "password_demo": "pass123",
+    "full_name": "Luis Hernández",
+    "avatar_url": "/avatars/luis.png",
+    "points": 450,
+    "completed_videos": ["v-001"],
+    "unlocked_achievements": ["ach-001"]
+  }
+]

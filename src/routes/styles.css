@@ -1,0 +1,70 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/forms";
+@plugin '@tailwindcss/typography';
+@plugin "daisyui";
+
+[data-theme='tech-saas'] {
+  --p: #2d5bff; /* Primario: Azul cobalto tecnológico */
+  --s: #8a2be2; /* Secundario: Púrpura neón */
+  --a: #00f5ff; /* Acento/Éxito: Cian eléctrico */
+  --e: #ff2e93; /* Error: Rosa neón */
+  --w: #ffd700; /* Advertencia: Amarillo futurista */
+
+  --b1: #1e293b; /* Base 100: Gris azulado oscuro (Superficies) */
+  --b2: #1e293b; /* Base 200: Usado para la tabla, similar a base-100 para un look consistente */
+  --b3: #0f172a; /* Base 300: Fondo más oscuro */
+
+  --bc: #ffffff; /* Texto Primario: Blanco puro */
+  --pc: #ffffff; /* Texto de Botón Primario */
+  --sc: #ffffff; /* Texto de Botón Secundario */
+  --ac: #000000; /* Texto de Botón Acento */
+  --nc: #ffffff; /* Texto de Navbar */
+
+  --rounded-box: 1rem;
+  --rounded-btn: 0.5rem;
+  --rounded-badge: 1.9rem;
+  --animation-btn: 0.2s;
+  --animation-input: 0.2s;
+  --btn-text-case: uppercase;
+  --btn-focus-scale: 0.95;
+  --border-btn: 1px;
+  --tab-border: 1px;
+  --tab-radius: 0.5rem;
+}
+
+/* Estilos globales para las fuentes */
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+.font-jetbrains {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Animaciones personalizadas de Tailwind */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.2;
+  }
+}
+.animate-pulse-glow {
+  animation: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes glow-purple {
+  0%,
+  100% {
+    box-shadow: 0 0 8px #8a2be2;
+  }
+  50% {
+    box-shadow: 0 0 16px #8a2be2;
+  }
+}
+.shadow-glow-purple {
+  animation: glow-purple 1.5s ease-in-out infinite;
+}

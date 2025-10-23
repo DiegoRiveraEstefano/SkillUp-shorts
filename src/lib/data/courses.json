@@ -1,0 +1,17 @@
+[
+  {
+    "id": "comm-01",
+    "title": "Comunicación Efectiva",
+    "description": "Aprende a transmitir tus ideas con claridad y confianza."
+  },
+  {
+    "id": "leader-01",
+    "title": "Liderazgo Ágil",
+    "description": "Desarrolla las competencias para guiar equipos en entornos dinámicos."
+  },
+  {
+    "id": "team-01",
+    "title": "Trabajo en Equipo",
+    "description": "Fortalece la colaboración y la sinergia con tus compañeros."
+  }
+]
