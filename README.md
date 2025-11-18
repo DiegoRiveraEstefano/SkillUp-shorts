@@ -1,85 +1,73 @@
-Aquí tienes una propuesta de README.md para tu proyecto, incorporando la información del documento que proporcionaste y los detalles técnicos de tu `package.json`.
+# vue-project
 
------
+This template should help get you started developing with Vue 3 in Vite.
 
-# SkillUp Shorts (Demo)
+## Recommended IDE Setup
 
-Este repositorio contiene el prototipo semi-funcional (solo frontend) de **SkillUp**, una plataforma móvil de microlearning gamificado.  El objetivo es entregar cápsulas de video breves (tipo "shorts" de 30-90 segundos) para fortalecer competencias blandas clave como la comunicación, el liderazgo y el trabajo en equipo. 
+[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## 🚀 Propuesta de Valor
+## Recommended Browser Setup
 
-Nuestra propuesta es: **"Transformar el desarrollo de habilidades blandas en una experiencia ágil, entretenida y conectada."** 
+- Chromium-based browsers (Chrome, Edge, Brave, etc.):
+  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
+  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
+- Firefox:
+  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-Buscamos que los egresados puedan aprender de forma flexible y motivante, utilizando un formato dinámico y cercano. 
+## Type Support for `.vue` Imports in TS
 
-## 🤔 ¿Qué problema resuelve?
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-El proyecto aborda directamente la falta de preparación práctica en habilidades blandas, el estrés de adaptación y la falta de acompañamiento que enfrentan muchos profesionales jóvenes durante su primer año laboral.  SkillUp ofrece un espacio de aprendizaje continuo y motivador para cerrar esta brecha. 
+## Customize configuration
 
-## 🎯 Objetivo del Proyecto
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-El objetivo de esta solución es mejorar la retención y satisfacción laboral de los egresados (específicamente, de Ingeniería en Informática de Inacap Maipú) durante su primer año de inserción laboral. 
+## Project Setup
 
-## ✨ Características (Demo)
+```sh
+bun install
+```
 
-Esta demo se enfoca en construir la interfaz de usuario (frontend) para las siguientes características clave:
+### Compile and Hot-Reload for Development
 
-  * **Microlearning en formato "Shorts":** Un feed de cápsulas de video verticales de 30 a 90 segundos. 
-  * **Gamificación:** Implementación visual de:
-      * Retos semanales. 
-      * Insignias por logros. 
-      * Un ranking de logros para fomentar la motivación. 
-  * **Enfoque en Habilidades Blandas:** Contenido centrado en comunicación, liderazgo y trabajo en equipo. 
+```sh
+bun dev
+```
 
-## 💻 Stack Tecnológico (Frontend)
+### Type-Check, Compile and Minify for Production
 
-Este prototipo está construido con un stack moderno enfocado en alto rendimiento y desarrollo multiplataforma:
+```sh
+bun run build
+```
 
-  * **Framework Frontend:** Svelte 5 + SvelteKit
-  * **Wrapper Nativo:** Tauri v2
-  * **Lenguaje:** TypeScript
-  * **Build Tool:** Vite
-  * **Adaptador:** `@sveltejs/adapter-static`, configurado para generar un sitio estático (Single Page Application - SPA) que Tauri pueda consumir.
+### Run Unit Tests with [Vitest](https://vitest.dev/)
 
-## 🚦 Estado Actual
+```sh
+bun test:unit
+```
 
-**DEMO SEMI-FUNCIONAL (SOLO FRONTEND)**
+### Run End-to-End Tests with [Playwright](https://playwright.dev)
 
-La aplicación actual no se conecta a un backend real. Todos los datos (videos, perfiles de usuario, rankings) son simulados (*mocked*) directamente en el frontend para demostrar el flujo de usuario y la interfaz.
+```sh
+# Install browsers for the first run
+npx playwright install
 
-## 🛠️ Primeros Pasos
+# When testing on CI, must build the project first
+bun run build
 
-1.  **Clonar el repositorio:**
+# Runs the end-to-end tests
+bun test:e2e
+# Runs the tests only on Chromium
+bun test:e2e --project=chromium
+# Runs the tests of a specific file
+bun test:e2e tests/example.spec.ts
+# Runs the tests in debug mode
+bun test:e2e --debug
+```
 
-    ```bash
-    git clone [URL-DEL-REPOSITORIO]
-    cd skillup-shorts
-    ```
+### Lint with [ESLint](https://eslint.org/)
 
-2.  **Instalar dependencias:**
-
-    ```bash
-    npm install
-    ```
-
-3.  **Configurar Tauri:**
-    (Si es la primera vez, asegúrate de tener los [pre-requisitos de Tauri v2](https://www.google.com/search?q=https://tauri.app/v2/guides/getting-started/prerequisites) instalados en tu sistema).
-
-## 📜 Scripts Disponibles
-
-Basado en el `package.json`:
-
-  * `npm run dev`:
-    Inicia el servidor de desarrollo de SvelteKit con Hot-Module-Reloading (HMR).
-
-  * `npm run build`:
-    Compila la aplicación SvelteKit usando `adapter-static`. Esto genera la carpeta `build/` que Tauri utilizará.
-
-  * `npm run preview`:
-    Previsualiza la build estática localmente.
-
-  * `npm run tauri dev`:
-    Inicia la aplicación de escritorio en modo desarrollo. (Se recomienda ejecutar `npm run dev` en una terminal y `npm run tauri dev` en otra).
-
-  * `npm run tauri build`:
-    Compila y empaqueta la aplicación de escritorio final para distribución.
+```sh
+bun lint
+```
